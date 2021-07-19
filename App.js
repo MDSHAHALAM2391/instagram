@@ -32,7 +32,8 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      loaded: false
+      loaded: false,
+      loggedIn: false,
     }
   }
 
